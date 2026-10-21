@@ -1,5 +1,16 @@
 @import url('https://googleapis.com');
 
+
+/* --- TILLFÄLLIG RAM FÖR ATT SE KANTEN (1280px) --- */
+body {
+  width: 80rem;              
+  margin: 0 auto;            
+  border: 5px solid rgb(43, 150, 60);    
+  box-sizing: border-box;     
+  position: relative;         
+  min-height: 250rem; 
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -266,40 +277,41 @@ box-sizing: border-box;
     ligger samlad högre upp i filen tillsammans med de övre knapparna! 
     */
 
-.mainStorySection {
-width: 1280px;
-height: 500px;
-background-color: #011827; 
-position: absolute;
-top: 1889px;  
-padding: 0px;
+.storySection {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+width: 100%;
+max-width: 80rem;
+height: 31.25rem;
+background-color: #011827;    
+margin-top: 4rem;
+box-sizing: border-box;         
+padding-top: 8rem;       
 }
 
     .story {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: white;
-    width: 632px;
-    position: absolute;
-    top: 2012px;
-    left: 324px;
-    padding: 0px;
-    margin: 0px;
+    max-width: 39.5rem;
+    text-align: center;
+    margin: 0 0 2.5rem 0;
     }
 
     .btnStory {
     background-color: transparent;
     color: #8ACFE5;
-    width: 308px;
-    height: 66px;
+    border: 2px solid #8ACFE5;
+    border-radius: 0.2rem;
+    width: 19.25rem;
+    height: 4.125rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 24px;
-    padding: 0px;
-    position: absolute;
-    top: 2181px;
-    left: 486px;
+    font-size: 1.5rem;
+    cursor: pointer;
     }
 
 .splitContainer {
