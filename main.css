@@ -370,6 +370,10 @@ margin: 0;
     margin-left: -8.4rem
     }
 
+    .splitContainer:last-of-type {
+    margin-bottom: 11.5rem; 
+}
+
 .footer {
 display: flex;
 width: 100%;
