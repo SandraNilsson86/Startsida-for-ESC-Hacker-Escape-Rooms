@@ -316,56 +316,63 @@ padding-top: 8rem;
 
 .splitContainer {
 display: flex;
-width: 1280px;
-height: 520px;
-position: absolute;
-top: 2389px;         
-left: 110px; 
+width: 100%;
+max-width: 80rem;
+height: 28.75rem;
+margin: 0;
 }
 
-    #splitImg {
-    max-width: 50%;
-    height: auto;
+    .splitImg {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
     }
 
-    .splitTextSection {
-    display: grid;
-    background-color: aqua;
+    .splitText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    align-content: center;
+    box-sizing: border-box;
+    padding: 0 2rem;
     }
 
     h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    font-size: 2rem;
+    margin: 0 0 1.5rem 0;
+    width: 27.8rem;
+    text-align: left;
     }
 
-    .sectionText {
+    .splitDescription {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 1.5rem;
+    width: 26.5rem;
+    margin-left: -1rem;
+    text-align: left;
+    margin-top: 0;
     }
 
-    .btnChallanges {
+    .btnChallanges, .btnBook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #E3170A;
-    width: 308px;
-    height: 66px;
-    margin-left: 108px; 
+    width: 19.25rem;
+    height: 4.125rem;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 24px;
-    padding: 0px 0px 0px 0px;
-    }
-
-    .btnBook {
-    background-color: #E3170A;
-    width: 308px;
-    height: 66px;
-    margin-left: 116px; 
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    align-self: center;
+    margin-left: -8.4rem
     }
 
 .footer {
