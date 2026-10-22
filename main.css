@@ -22,7 +22,6 @@
   --btn-dark-text: var(--color-blue-light); 
 }
 
-
 body {
   margin: 0;
   padding: 0;
@@ -40,7 +39,8 @@ body {
   display: flex;
   flex-direction: column;    
   background-color: var(--color-blue-dark);
-  width: 100%;           
+  width: 100%;
+  height: 13.5rem;           
   box-sizing: border-box;
 } 
 
@@ -114,7 +114,7 @@ object-position: center;
 
 .lowerButtons {
   margin-top: 5rem;        
-  margin-bottom: 5rem;   
+  margin-bottom: 5.5rem;   
 }
 
 .btnRed, .btnBlue {
@@ -148,8 +148,9 @@ display: flex;
 justify-content: center;
 gap: 1rem;              
 max-width: 68.75rem;
+height: 8.8rem;
 margin: 2.5rem auto;
-margin-top: 7rem;       
+margin-top: 7.5rem;       
 box-sizing: border-box;
 }
 
@@ -204,7 +205,7 @@ justify-content: center;
 gap: 1.875rem;
 max-width: 73.75rem;
 height: 27.875rem;
-margin: 0 auto 3.75rem;
+margin: 0 auto 5.5rem;
 padding: 0 1.25rem;
 box-sizing: border-box;
 }
@@ -237,7 +238,7 @@ box-sizing: border-box;
     font-size: 1.75rem;
     margin-top: 0.9rem;
     margin-bottom: 0.1rem;
-    margin-left: 0.9rem;
+    margin-left: 1rem;
     }
 
     .starRaiting {
@@ -245,12 +246,12 @@ box-sizing: border-box;
     align-items: center;
     margin-top: 0;
     margin-bottom: 0.5rem;
-    margin-left: 0.9rem;
+    margin-left: 1rem;
     }
 
     .fullStarImg, .emptyStarImg {
-    width: 1rem;
-    height: 1em;
+    width: 0.9rem;
+    height: 0.9em;
     margin-right: 0.5rem;
     }
 
@@ -260,7 +261,7 @@ box-sizing: border-box;
     font-size: 0.875rem;
     margin: 0;
     margin-left: auto;
-    margin-right: 0.5rem;
+    margin-right: 0.7rem;
     }
   
     .roomDescription {
@@ -279,12 +280,12 @@ box-sizing: border-box;
     width: auto;
     align-self: flex-end;
     height: 2.75rem;
-    padding: 0 1.875rem;
+    padding: 0 1.7rem;
     margin-right: 0.7rem;
     margin-bottom: 0.7rem;
     font-family: var(--font-main); 
     font-weight: var(--weight-bold);
-    font-size: 1.125rem;
+    font-size: 1rem;
     border-radius: 0.25rem;
     cursor: pointer;
     margin-top: auto;
@@ -304,7 +305,7 @@ width: 100%;
 max-width: 80rem;
 height: 31.25rem;
 background-color: var(--color-blue-dark); 
-margin-top: 4rem;
+margin-top: 4.5rem;
 box-sizing: border-box;         
 padding-top: 8rem;       
 }
@@ -360,7 +361,7 @@ margin: 0;
     font-family: var(--font-main); 
     font-weight: var(--weight-bold);
     font-size: 2rem;
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1rem 0;
     width: 27.8rem;
     text-align: left;
     }
@@ -413,7 +414,7 @@ box-sizing: border-box;
     max-width: 80rem;
     width: 100%;
     margin: 0 auto;  
-    padding: 9.375rem 6.5rem 0 6.5rem;  
+    padding: 9.2rem 6.5rem 0 6.5rem;  
     box-sizing: border-box;
     }
 
@@ -442,7 +443,7 @@ box-sizing: border-box;
         font-family: var(--font-main); 
         font-weight: var(--weight-bold);
         font-size: 1.125rem;
-        margin: 0;
+        margin: 0 0 -0.8rem 0;
         text-align: left;
         }
 
@@ -458,6 +459,7 @@ box-sizing: border-box;
         .footerNav {
         display: flex;
         flex-direction: column;
+        margin-top: 0.8rem;
         }
 
         .footerNav a {
@@ -470,5 +472,5 @@ box-sizing: border-box;
         }
  
         .footerNav .navSpacing {
-        margin-top: 1.5rem;
+        margin-top: 1.3rem;
         }
