@@ -477,6 +477,60 @@ box-sizing: border-box;
         margin-top: 1.3rem;
         }
 
+        @media (max-width: 1000px) {
+
+        .splitContainer {
+        flex-direction: column; 
+        height: auto;
+        }
+
+        .splitContainer.reverseMobile {
+        flex-direction: column-reverse;
+        }
+
+        .splitImg, .splitText {
+        width: 100%;
+        }
+
+        .splitImg {
+        height: 18.75rem;
+        }
+
+        h4, .splitDescription {
+        max-width: 520px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        }
+
+        .btnChallanges, .btnBook {
+        margin-left: 0; 
+        align-self: center;
+        margin-bottom: 2rem;
+        }
+
+        .splitContainer:last-of-type {
+        margin-bottom: 0; 
+        }
+
+        .footer {
+        height: auto;
+        }
+
+        .footerContainer {
+        padding-top: 3rem;
+        height: auto;
+        margin-bottom: 5rem;
+        }
+
+        .footerBrand {
+        margin-right: 3rem;
+        }
+
+
+        }
+
         @media (max-width: 768px) {
 
         html, body {
@@ -549,7 +603,7 @@ box-sizing: border-box;
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
-        padding: 0 1.5rem;
+        padding: 0 1rem;
         margin-top: 2.5rem;
         margin-bottom: 2rem;
         height: auto;
@@ -695,6 +749,7 @@ box-sizing: border-box;
         .footerContainer {
         flex-direction: column;
         padding: 4rem 0 0 1rem;
+        margin: 0;
         }
 
         .footerBrand {
@@ -706,7 +761,6 @@ box-sizing: border-box;
         }
 
         .footer h5 {
-    
         text-align: left;
         }
 
