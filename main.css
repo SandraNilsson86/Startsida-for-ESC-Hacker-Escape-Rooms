@@ -136,6 +136,8 @@ border-radius: 0.2rem;
     .btnRed {
     background-color: var(--btn-primary-bg); 
     color: var(--btn-primary-text);
+    display: inline-flex;
+    text-decoration: none;
     }
 
     .btnBlue {
@@ -473,4 +475,148 @@ box-sizing: border-box;
  
         .footerNav .navSpacing {
         margin-top: 1.3rem;
+        }
+
+        @media (max-width: 480px) {
+
+
+        html, body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+        }
+
+        .header {
+        width: 100%;
+        height: 9rem;
+        }
+
+        h1 {
+        margin: 1.8rem 0.5rem;
+        font-size: 1.4rem;
+        height: 5.25rem;
+        width: 4.875rem;
+        }
+
+        .headerNav {
+        display: none; 
+        }
+
+       .imgSection {
+        height: auto; 
+        width: 100%;
+        }
+
+        #hackerImg {
+        width: 100%;
+        aspect-ratio: 480 / 274; 
+        object-fit: cover;
+        object-position: center;
+        }
+
+        .buttonsContainer {
+        display: flex;
+        flex-direction: column-reverse; 
+        align-items: center;
+        padding: 0 4rem;
+        box-sizing: border-box;
+        margin-bottom: 0;
+        gap: 0;
+        }
+        
+        .btnBlue {
+        margin-top: 2.2rem;
+        margin-bottom: 0.5rem;
+        max-width: 19.25rem;
+        padding: 0;
+        }
+
+        .btnRed {
+        color: var(--color-blue-muted);
+        background: none;      
+        padding: 0;              
+        text-decoration: underline; 
+        font-size: 1rem;
+        margin-top: 0rem;
+        }
+
+        .upperButtons {
+        margin-top: 0;
+        margin-bottom: 0;
+        }
+
+        .reviewContainer {
+        width: 27.4375rem;
+        margin-top: 2.5rem;
+        }
+
+        .malePhoto {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        }
+
+        .visitor {
+        width: 20.875rem;
+        }
+
+        .reviewCard:last-of-type {
+        display: none;
+        }
+
+        h2 {
+        margin-top: 6.5rem;
+        width: 27.5rem;
+        font-size: 2rem;
+        justify-self: center;
+        margin-bottom: 2.5rem;
+        }
+
+        .roomContainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 27.875;
+        gap: 2.5rem;
+        margin: 0rem 2rem 0 2rem;
+        box-sizing: border-box;
+        justify-content: flex-start; 
+        }
+
+        .room {
+        flex: 0 0 90%;
+        max-width: 22.6875rem;
+        }
+
+        .starRaiting {
+        margin: 0 0 0.3rem 1.3rem;
+        align-items: normal;
+        }
+
+        .participants {
+        margin: 0 0 0 0.5rem;
+        }
+
+        .btnRoom {
+        width: 11.1rem;
+        margin: 0.8rem 1rem 0.5rem 0;
+        font-size: 0.9rem;
+        }
+
+        .lowerButtons {
+        margin-top: 1rem;
+        margin-bottom: 0;
+        }
+
+        .storySection {
+        margin-top: 2rem;
+        padding: 6rem 1rem 5rem 1rem;
+        }
+
+        .btnStory {
+        margin-top: 1rem;
+        }
+
+       
         }
