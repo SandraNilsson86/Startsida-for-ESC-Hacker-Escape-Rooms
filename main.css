@@ -535,13 +535,14 @@ box-sizing: border-box;
         }
 
         .splitImgContainer {
-        height: 18.75rem;
+        width: 100%;
+        height: auto;
         }
 
         .splitImg {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
+        height: auto;
+        object-fit: contain;
         display: block;
         }
 
@@ -743,10 +744,16 @@ box-sizing: border-box;
         margin-bottom: 3rem
         }
 
+        .splitImgContainer {
+        width: 100%;
+        height: auto;
+        display: block;
+        }
+
         .splitImg {
         width: 100%;
-        height: 18.75rem;
-        object-fit: cover;
+        height: auto;
+        object-fit: contain;
         }
 
         .splitText {
